@@ -1,0 +1,32 @@
+:root {
+  --background-color: #051920;
+  --background-color2: #505943;
+  --background-color3: #fc6161;
+  --text-color: linear-gradient(180deg, #ebe0a6 45.31%, #e69827 100%);
+  --text-color2: #e69827;
+  --text-color3: white;
+  --text-color4: #c3410d;
+  --text-color5: white;
+}
+
+main {
+  background: var(--background-color);
+}
+
+h1 {
+  background: var(--text-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h2 {
+  color: var(--text-color2);
+}
+h3 {
+  color: var(--text-color3);
+}
+h4 {
+  color: var(--text-color4);
+}
+p {
+  color: var(--text-color5);
+}
