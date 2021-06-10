@@ -94,6 +94,10 @@ h1 {
   font-size: 5rem;
   color: #ebe0a6;
 }
+.portrait__icon-cover:hover {
+  transform: translateX(-50%) translateY(-5%) scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
 .bio {
   width: 85%;
 }
