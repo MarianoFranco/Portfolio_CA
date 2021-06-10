@@ -291,3 +291,9 @@ h1 {
 .website__img-container--museum {
   border: solid 2px #fcb076;
 }
+.website__card-img--leftPosisioned {
+  object-position: left;
+}
+.website__card-img--rightPosisioned {
+  object-position: right;
+}
