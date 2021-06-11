@@ -59,26 +59,30 @@
 		</section>
 		<section class="form">
             <p class="form_description">Do you want more information about me or hire me for a project? Leave me a message and let's have coffee to chat about everything you need to know.</p>
-            <form action="">
+            <form >
                 <div class="form__container">
                     <div class="form__data">
-                        <label for="" class="form__label">Name:</label>
-                        <input type="text" class="form__input">                       
+                        <label for="name" class="form__label">Name:</label>
+                        <input type="text" class="form__input" id="name" name="name">    
+                        <p class="error nameError">The name should be more than 5 characters long</p>                   
                     </div>
                     <div class="form__data">
-                        <label for="" class="form__label">Email:</label>
-                        <input type="text" class="form__input">
+                        <label for="email" class="form__label">Email:</label>
+                        <input type="text" class="form__input" id="email" name="email">
+                        <p class="error emailError">Must be a valid email address </p>
                     </div>
                     <div class="form__data">
-                        <label for="" class="form__label">Subject:</label>
-                        <input type="text" class="form__input">
+                        <label for="subject" class="form__label">Subject:</label>
+                        <input type="text" class="form__input" id="subject" name="subject">
+                        <p class="error subjectError">The subject should be more than 15 characters long</p>
                     </div>
                     <div class="form__data">
-                        <label for="" class="form__label">Message:</label>
-                       <textarea name="" id="" cols="30" rows="10" class="form__textarea"></textarea>
+                        <label for="msg" class="form__label">Message:</label>
+                        <p class="error messageError">The message content should be more than 25 characters long</p>
+                       <textarea name="msg" id="msg" cols="30" rows="10" class="form__textarea"></textarea>
                     </div>
                     <div class="form__data">
-                        <input type="submit" class="form__submit">
+                        <input type="submit" class="form__submit" id="submit">
                     </div>
                 </div>               
             </form>            
@@ -98,6 +102,7 @@
 			<p class="copyright__text">Designed by Mariano Franco | Copyright © 2021 All Rights Reserved.</p>
 		</div>		
 	</footer>
+    <script src="js/contact.js"></script>
 	<script src="js/header.js"></script>
 </body>
 </html>

@@ -18,11 +18,12 @@ body {
     "footer";
   max-width: 1440px;
   position: relative;
-  background-color: #ebe0a6;
+  background-color: #051920;
   margin: 0 auto;
 }
 header {
   grid-area: header;
+  width: 100%;
 }
 main {
   width: 100%;
@@ -41,4 +42,10 @@ h2 {
 }
 p {
   font-size: 2.4rem;
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
 }
