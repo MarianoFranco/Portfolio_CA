@@ -9,6 +9,9 @@ header {
 .icons__container {
   padding: 10px;
 }
+.icons__link {
+  text-decoration: none;
+}
 .icon {
   margin: 10px;
   color: #ebe0a6;
