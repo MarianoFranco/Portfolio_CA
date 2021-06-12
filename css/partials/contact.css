@@ -110,7 +110,7 @@ h1 {
   transform: translateX(-50%) translateY(-5%) scale(1.1);
   transition: all 0.3s ease-in-out;
 }
-.contact {
+.form {
   width: 80%;
   margin: auto;
 }
@@ -120,7 +120,6 @@ h1 {
 .form__container {
   width: 80%;
   margin: auto;
-  border: solid 1px red;
 }
 .form__data {
   margin: 5px 0;
