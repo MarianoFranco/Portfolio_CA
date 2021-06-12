@@ -137,7 +137,7 @@ h1 {
   height: 40px;
   border-radius: 50px;
   border: none;
-  margin: 20px 0;
+  margin: 10px 0;
   padding: 10px;
   font-size: 2.4rem;
 }
@@ -256,10 +256,7 @@ h1 {
     align-items: center;
     margin: 0;
   }
-  .form {
-    width: 95%;
-    margin: auto;
-  }
+
   .form__container {
     width: 80%;
   }
