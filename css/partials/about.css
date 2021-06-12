@@ -189,6 +189,68 @@ h1 {
   flex-direction: column;
   align-items: center;
   text-align: center;
+
+  margin: 50px auto;
+}
+h3 {
+  font-size: 5rem;
+}
+.education__data {
+  width: 700px;
+}
+.education__current {
+  font-size: 5rem;
+  color: #c3410d;
+  font-weight: bold;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.education__period {
+  font-style: italic;
+  margin: 10px auto;
+  font-weight: 400;
+  font-size: 2.6rem;
+}
+.education__profesion {
+  font-size: 3.4rem;
+  font-weight: 500;
+  margin: 10px auto;
+}
+.vertical-line {
+  height: 150px;
+  width: 3px;
+  background: white;
+  margin: 30px auto;
+}
+h4 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: #c3410d;
+  margin: 50px auto;
+  text-align: center;
+}
+.education__languages {
+  display: flex;
+  justify-content: space-around;
+}
+.education__skill {
+  text-align: center;
+}
+.education__icons {
+  align-self: center;
+}
+.education__star {
+  font-size: 2.4rem;
+  color: #c3410d;
+  margin: 5px;
+}
+.education__technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.education__skill--tech {
+  width: 300px;
+  margin: 40px;
 }
 @media (max-width: 767px) {
   .portrait {

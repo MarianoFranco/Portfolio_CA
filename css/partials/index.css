@@ -74,7 +74,7 @@ h1 {
 }
 
 .portrait__description {
-  padding: 10px;
+  padding: 15px;
 }
 .portrait__btn {
   font-size: 3rem;
@@ -225,11 +225,12 @@ h1 {
 }
 .card__data:hover {
   opacity: 1;
-  padding: 60% 0;
+  padding: 50% 0;
 }
 .card__title {
   font-size: 3.6rem;
   color: #ebe0a6;
+  padding: 10px;
 }
 .card__text {
   margin: 30px 0;
@@ -244,10 +245,10 @@ h1 {
 @media (max-width: 767px) {
   .portrait {
     background-image: url(../../img/bgimage.jpg);
-    height: 900px;
+    height: 1050px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 385%;
+    background-size: 475%;
     position: relative;
   }
   .portrait__title {
@@ -255,8 +256,18 @@ h1 {
     top: 80px;
     left: 50%;
     font-size: 4rem;
+    width: 453px;
     transform: translateX(-50%) scale(0.6);
-    width: 690px;
+  }
+  .portrait__subtitle {
+    font-size: 5rem;
+    font-family: "Gelasio", serif;
+    text-align: right;
+    margin: 15px;
+    background: linear-gradient(180deg, #ebe0a6 45.31%, #e69827 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
   }
   .portrait__profile {
     display: flex;

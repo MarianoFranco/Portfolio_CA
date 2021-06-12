@@ -1,20 +1,22 @@
 footer {
-  background: linear-gradient(
-    0deg,
-    rgba(228, 79, 38, 0.9) 0%,
-    rgba(5, 25, 32, 1) 60%
-  );
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
   position: relative;
+  margin: 20px auto;
+}
+.footer__line {
+  height: 1px;
+  background: white;
 }
 .icons__container--footer {
   position: absolute;
   right: 30px;
   top: 30px;
 }
-.copyright__text {
+.copyright {
+  position: absolute;
   text-align: center;
-  margin: 10px;
+  width: 100%;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
 }
