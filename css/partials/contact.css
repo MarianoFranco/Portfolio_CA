@@ -208,8 +208,6 @@ h1 {
     display: flex;
     position: absolute;
     top: 150px;
-    align-items: flex-start;
-    width: 100%;
     flex-direction: column;
     padding: 0;
     align-items: center;
@@ -219,19 +217,7 @@ h1 {
     max-width: 220px;
     padding: 10px;
   }
-  .portrait__btn {
-    font-size: 2.5rem;
-    border: solid 3px #ebe0a6;
-    border-radius: 50px;
-    padding: 15px 25px;
-    font-weight: bold;
-    color: #ebe0a6;
-    text-decoration: none;
-    margin: 20px auto;
-    position: absolute;
-    right: 50%;
-    transform: translateX(50%);
-  }
+
   .portrait__icon-cover {
     position: absolute;
     bottom: 20px;
