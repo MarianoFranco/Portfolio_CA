@@ -3,7 +3,7 @@
   height: 900px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 110%;
   position: relative;
 }
 .overlay {
@@ -239,8 +239,60 @@ h1 {
 }
 
 @media (max-width: 1200px) {
+  .portrait {
+    background-image: url(../../img/bgimage.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130%;
+    position: relative;
+  }
+  .portrait__profile {
+    display: flex;
+    position: absolute;
+    top: 230px;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    margin: 20px auto;
+    left: 50px;
+  }
+  .portrait__desc-container {
+    max-width: 60%;
+    position: relative;
+  }
 }
 @media (max-width: 991px) {
+  .portrait {
+    background-image: url(../../img/bgimage.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 180%;
+    position: relative;
+  }
+  .portrait__title {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    font-size: 4rem;
+    transform: translateX(-60%) scale(0.8);
+    width: 690px;
+  }
+  .portrait__profile {
+    display: flex;
+    position: absolute;
+    top: 200px;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    left: 40px;
+    margin: 20px;
+  }
+  .portrait__desc-container {
+    max-width: 50%;
+    position: relative;
+  }
 }
 @media (max-width: 767px) {
   .portrait {
@@ -279,6 +331,7 @@ h1 {
     padding: 0;
     align-items: center;
     margin: 0;
+    left: 0;
   }
   .portrait__img-container {
     max-width: 220px;

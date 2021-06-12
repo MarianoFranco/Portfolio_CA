@@ -3,7 +3,7 @@
   height: 900px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: 110%;
   position: relative;
 }
 .overlay {
@@ -176,6 +176,34 @@ h1 {
 }
 .show {
   display: block;
+}
+@media (max-width: 1200px) {
+  .portrait {
+    background-image: url(../../img/bgimage.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130%;
+    position: relative;
+  }
+}
+@media (max-width: 991px) {
+  .portrait {
+    background-image: url(../../img/bgimage.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 180%;
+    position: relative;
+  }
+  .portrait__title {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    font-size: 4rem;
+    transform: translateX(-60%) scale(0.8);
+    width: 690px;
+  }
 }
 @media (max-width: 767px) {
   .portrait {
