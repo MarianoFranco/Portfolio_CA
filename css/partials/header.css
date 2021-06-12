@@ -87,7 +87,7 @@ header {
   }
   .nav__ul {
     border: solid 2px #ebe0a6;
-    position: fixed;
+    position: absolute;
     width: 99%;
     right: 0;
     top: 100px;

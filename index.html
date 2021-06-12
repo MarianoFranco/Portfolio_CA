@@ -19,13 +19,18 @@
 				<i class="fab fa-linkedin icon"></i>
 			</a>
 		</div>
-		<nav>
-			<ul class="nav__ul">
-				<li class="nav__list"><a href="index.html" class="nav__link">Home</a></li>
-				<li class="nav__list"><a href="project_page.html" class="nav__link">Projects</a></li>
-				<li class="nav__list"><a href="contact.html" class="nav__link">Contact</a></li>
-			</ul>
-		</nav>
+        <div class="nav__container">
+            <label for="menu__icon" class="menu__icon"><i class="fas fa-bars"></i></label>
+			<input type="checkbox" class="menu__checkbox" id="menu__icon">
+            <nav >
+                <ul class="nav__ul">
+                    <li class="nav__list"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__list"><a href="project_page.html" class="nav__link">Projects</a></li>
+                    <li class="nav__list"><a href="contact.html" class="nav__link">Contact</a></li>
+					<li class="nav__list"><a href="about.html" class="nav__link">About me</a></li>
+                </ul>
+            </nav>
+        </div>		
 	</header>
 	<main>
 		<section class="portrait">
@@ -46,155 +51,79 @@
 				</div>		
 			</div>				
 			<a href="#scroll-here" class="portrait__icon-cover">
-				<h2 class="portrait__fulfilled-projects">About me</h2>
+				<h2 class="portrait__fulfilled-projects">My projects</h2>
 				<i class="fas fa-chevron-down portrait__icon"></i>
 			</a>
 		</section>
-		<section class="bio">
-			<h2 id="scroll-here">WHO AM I?</h2>
-			<div class="bio__container" >
-				<div class="bio__text-container">
-					<p class="bio_text">I am a 33 year old man from Argentina but I have lived in a beautiful town in Spain for 12 years. In 2016 I moved to Norway where I am currently living with my family.</p>
-					<p class="bio_text">I consider myself a positive and ambitious person and I am always looking for new challenges that help me grow both as a professional and as a person. I like to learn new things that help me do my job better. And whenever I can, I do it on my own.</p>
-					<p class="bio_text">In my last year as a student, I have learned the main technologies used to carry out my work as a frontend developer, such as <strong>HTML</strong>, <strong>CSS</strong> and <strong>Javascript</strong>. In addition to acquiring knowledge about <strong>UX</strong> and <strong>UI</strong> design, using applications such as <strong>Adobe xD</strong> and <strong>Figma</strong>.</p>
-					<p class="bio_text">With all this knowledge I have been able to carry out some complete web projects. These are adapted to view on any device and you can check them on my projects page.</p>
-				</div>
-				<div class="bio__img-container">
-					<img src="img/bio-pic.jpg" alt="" class="bio__img">
-				</div>
+		<section class="projects" id="scroll-here">            
+            <div class="card__container">
+					<a href="project_page.html#lvlup-scroll" target="_blank" class="card__link">
+						<div class="img__container">
+							<img src="img/lvlup/lvlup.jpg" alt="portrait lvlup page" class="card__img">
+						</div> 
+						<div class="card__data">
+							<h3 class="card__title">LVL-UP gaming</h3>					
+							<p class="card__text">This was my first project. It is a website about videogames.</p>			      
+						</div> 	
+					</a>                    				         
+            </div>             
+            <div class="card__container">
+				<a href="project_page.html#lvlup-scroll" target="_blank" class="card__link">
+					<div class="img__container">
+						<img src="img/technoland/1.jpg" alt="portrait science museum page" class="card__img">
+					</div> 
+					<div class="card__data">
+						<h3 class="card__title">Science museum</h3>					
+						<p class="card__text">This was my first project. It is a website about videogames.</p>			      
+					</div> 	
+				</a>                    				         
+			</div>   
+			<div class="card__container">
+				<a href="project_page.html#lvlup-scroll" target="_blank" class="card__link">
+					<div class="img__container">
+						<img src="img/nomada/1.jpg" alt="travel blog" class="card__img">
+					</div> 
+					<div class="card__data">
+						<h3 class="card__title">Travell blog</h3>					
+						<p class="card__text">This was my first project. It is a website about videogames.</p>			      
+					</div> 	
+				</a>                    				         
+			</div>   
+			<div class="card__container">
+				<a href="project_page.html#lvlup-scroll" target="_blank" class="card__link">
+					<div class="img__container">
+						<img src="img/lvlup/lvlup.jpg" alt="portrait lvlup page" class="card__img">
+					</div> 
+					<div class="card__data">
+						<h3 class="card__title">LVL UP GAMING</h3>					
+						<p class="card__text">This was my first project. It is a website about videogames.</p>			      
+					</div> 	
+				</a>                    				         
 			</div>
-		</section>
-		<section class="education">
-			<h2>EDUCATION & TOOLS SKILLS</h2>
-			<div class="education__cv-container">
-				<div class="education__data">
-					<h3 class="education__current">Noroff - School of technology and digital media</h3>
-					<p class="education__period">2020 - current</p>
-					<p class="education__profesion">Frontend developer</p>
-				</div>
-				<div class="vertical-line"></div>
-				<div class="education__data">
-					<h3>Ilerna Online</h3>
-					<p class="education__period">2019</p>
-					<p class="education__profesion">Web applications development</p>
-				</div>
-				<div class="vertical-line"></div>
-				<div class="education__data">
-					<h3>Fosen VGS VG1 og VG2</h3>
-					<p class="education__period">2017 - 2019</p>
-					<p class="education__profesion">Elektro og datateknologi</p>
-				</div>
-				<div class="vertical-line"></div>
-				<div class="education__data">
-					<h3>IES Marcos Zaragoza</h3>
-					<p class="education__period">2006 - 2008</p>
-					<p class="education__profesion">Technician in microcomputer systems and networks</p>
-				</div>
-				<div class="vertical-line"></div>
-				<div class="education__data">
-					<h3>IES Marcos Zaragoza</h3>
-					<p class="education__period">1994 - 2004</p>
-					<p class="education__profesion">High school</p>
-				</div>
+			<div class="card__container">
+				<a href="project_page.html#lvlup-scroll" target="_blank" class="card__link">
+					<div class="img__container">
+						<img src="img/lvlup/lvlup.jpg" alt="portrait lvlup page" class="card__img">
+					</div> 
+					<div class="card__data">
+						<h3 class="card__title">LVL UP GAMING</h3>					
+						<p class="card__text">This was my first project. It is a website about videogames.</p>			      
+					</div> 	
+				</a>                    				         
 			</div>
-			<div class="education__skills">
-				<h4>Languages:</h4>
-				<div class="education__languages">					
-					<div class="education__skill">
-						<p>Spanish</p>
-						<div class="education__icons">
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-						</div>
-					</div>
-					<div class="education__skill">
-						<p>English</p>
-						<div class="education__icons">
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="far fa-star education__star"></i>
-							<i class="far fa-star education__star"></i>
-						</div>
-					</div>
-					<div class="education__skill">
-						<p>Norwegian</p>
-						<div class="education__icons">
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="far fa-star education__star"></i>
-							<i class="far fa-star education__star"></i>
-							<i class="far fa-star education__star"></i>
-						</div>
-					</div>
-				</div>
-				<h4>Technologies:</h4>
-				<div class="education__technologies">
-					<div class="education__skill education__skill--tech">					
-						<p>HTML</p>										
-						<div class="education__icons">
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="far fa-star education__star"></i>
-							<i class="far fa-star education__star"></i>
-						</div>
-					</div>
-					<div class="education__skill education__skill--tech">
-						
-						<p>CSS3</p>										
-						<div class="education__icons">
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="far fa-star education__star"></i>
-							<i class="far fa-star education__star"></i>
-						</div>
-					</div>
-					<div class="education__skill education__skill--tech">
-						<p>Javascript</p>								
-						<div class="education__icons">
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="far fa-star education__star"></i>
-							<i class="far fa-star education__star"></i>
-						</div>
-					</div>
-					<div class="education__skill education__skill--tech">
-						<p>Adobe Xd</p>									
-						<div class="education__icons">
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="far fa-star education__star"></i>
-							<i class="far fa-star education__star"></i>
-							<i class="far fa-star education__star"></i>
-						</div>
-					</div>
-					<div class="education__skill education__skill--tech">
-						<p>Figma</p>									
-						<div class="education__icons">
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="fas fa-star education__star"></i>
-							<i class="far fa-star education__star"></i>
-							<i class="far fa-star education__star"></i>
-						</div>
-					</div>
-				</div>
+			<div class="card__container">
+				<a href="project_page.html#lvlup-scroll" target="_blank" class="card__link">
+					<div class="img__container">
+						<img src="img/lvlup/lvlup.jpg" alt="portrait lvlup page" class="card__img">
+					</div> 
+					<div class="card__data">
+						<h3 class="card__title">LVL UP GAMING</h3>					
+						<p class="card__text">This was my first project. It is a website about videogames.</p>			      
+					</div> 	
+				</a>                    				         
 			</div>
-		</section>
+
+        </section>	
 	</main>
 	<footer>
 		<div class="icons__container--footer">

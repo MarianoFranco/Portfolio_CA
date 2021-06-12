@@ -177,3 +177,32 @@ h1 {
 .show {
   display: block;
 }
+@media (max-width: 767px) {
+  .portrait {
+    background-image: url(../../img/bgimage.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 385%;
+    position: relative;
+  }
+  .portrait__title {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    font-size: 4rem;
+    transform: translateX(-50%) scale(0.6);
+    width: 690px;
+  }
+  .portrait__profile {
+    display: flex;
+    position: absolute;
+    top: 300px;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+  }
+}
