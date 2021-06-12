@@ -180,10 +180,10 @@ h1 {
 @media (max-width: 767px) {
   .portrait {
     background-image: url(../../img/bgimage.jpg);
-    height: 900px;
+    height: 700px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 385%;
+    background-size: 475%;
     position: relative;
   }
   .portrait__title {
@@ -191,18 +191,90 @@ h1 {
     top: 80px;
     left: 50%;
     font-size: 4rem;
+    width: 453px;
     transform: translateX(-50%) scale(0.6);
-    width: 690px;
+  }
+  .portrait__subtitle {
+    font-size: 5rem;
+    font-family: "Gelasio", serif;
+    text-align: right;
+    margin: 15px;
+    background: linear-gradient(180deg, #ebe0a6 45.31%, #e69827 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
   }
   .portrait__profile {
     display: flex;
     position: absolute;
-    top: 300px;
+    top: 150px;
     align-items: flex-start;
     width: 100%;
     flex-direction: column;
     padding: 0;
     align-items: center;
     margin: 0;
+  }
+  .portrait__img-container {
+    max-width: 220px;
+    padding: 10px;
+  }
+  .portrait__btn {
+    font-size: 2.5rem;
+    border: solid 3px #ebe0a6;
+    border-radius: 50px;
+    padding: 15px 25px;
+    font-weight: bold;
+    color: #ebe0a6;
+    text-decoration: none;
+    margin: 20px auto;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  .portrait__icon-cover {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+  }
+  .portrait__fulfilled-projects {
+    color: #ebe0a6;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .bio__container {
+    display: flex;
+    margin: 30px 0;
+    flex-direction: column;
+  }
+  .bio__text-container {
+    margin: 30px;
+    width: 95%;
+  }
+  .portrait__profile {
+    display: flex;
+    position: absolute;
+    top: 220px;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+  }
+  .form {
+    width: 95%;
+    margin: auto;
+  }
+  .form__container {
+    width: 90%;
+    margin: auto;
   }
 }
