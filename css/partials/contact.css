@@ -245,6 +245,10 @@ h1 {
     max-width: 80%;
     position: relative;
   }
+  .portrait__img-container {
+    max-width: 220px;
+    padding: 10px;
+  }
 
   .portrait__icon-cover {
     position: absolute;
