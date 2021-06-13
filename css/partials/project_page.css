@@ -518,9 +518,9 @@ h1 {
     margin: 0;
     left: 0;
   }
-  .portrait__img-container {
-    max-width: 220px;
-    padding: 10px;
+  .portrait__desc-container {
+    max-width: 80%;
+    position: relative;
   }
   .portrait__btn {
     min-width: 150px;

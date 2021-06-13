@@ -241,9 +241,9 @@ h1 {
     align-items: center;
     margin: 0;
   }
-  .portrait__img-container {
-    max-width: 220px;
-    padding: 10px;
+  .portrait__desc-container {
+    max-width: 80%;
+    position: relative;
   }
 
   .portrait__icon-cover {
