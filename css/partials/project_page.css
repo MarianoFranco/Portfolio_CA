@@ -52,7 +52,7 @@ h1 {
   top: 150px;
   align-items: center;
   justify-content: center;
-  width: 90%;
+  width: 80%;
   margin: 20px;
 }
 .portrait__img-container {
@@ -233,7 +233,7 @@ h1 {
 }
 .card__data:hover {
   opacity: 1;
-  padding: 45% 0;
+  padding: 38% 0;
 }
 .card__title {
   font-size: 3.6rem;
