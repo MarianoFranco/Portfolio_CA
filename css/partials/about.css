@@ -115,19 +115,19 @@ h1 {
 }
 @keyframes vaiven {
   15% {
-    transform: rotate(-8deg) translateX(-18%);
+    transform: rotate(-8deg) translateX(-12px);
   }
   30% {
-    transform: rotate(5deg) translateX(13%);
+    transform: rotate(5deg) translateX(10px);
   }
   45% {
-    transform: rotate(-3deg) translateX(-10%);
+    transform: rotate(-3deg) translateX(-10px);
   }
   60% {
-    transform: rotate(2deg) translateX(5%);
+    transform: rotate(2deg) translateX(5px);
   }
   60% {
-    transform: rotate(-1deg) translateX(-2%);
+    transform: rotate(-1deg) translateX(-2px);
   }
 }
 
@@ -361,6 +361,31 @@ h4 {
     position: absolute;
     right: 50%;
     transform: translateX(50%);
+  }
+  .portrait__btn:hover {
+    animation: none;
+    background: #ebe0a6;
+    color: #024b90;
+    border: solid 3px #024b90;
+  }
+  .portrait__btn::before {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 85px;
+    background: #024b90;
+    height: 3px;
+    width: 0px;
+  }
+  .portrait__btn:hover::before {
+    content: "";
+    position: absolute;
+    top: 45px;
+    left: 40px;
+    background: #024b90;
+    height: 3px;
+    width: 100px;
+    transition: all 0.3s ease-in;
   }
   .portrait__icon-cover {
     position: absolute;
